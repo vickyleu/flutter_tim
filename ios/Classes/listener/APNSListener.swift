@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ImSDK_Smart
+import ImSDK
 
 class APNSListener: NSObject, V2TIMAPNSListener {
 	public static var count: UInt32 = 0;

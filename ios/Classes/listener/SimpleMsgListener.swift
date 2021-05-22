@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ImSDK_Smart
+import ImSDK
 
 class SimpleMsgListener: NSObject, V2TIMSimpleMsgListener {
 	/// simpleMsgListener
