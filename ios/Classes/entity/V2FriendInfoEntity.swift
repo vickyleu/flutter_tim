@@ -1,4 +1,4 @@
-import  ImSDK_Smart;
+import  ImSDK;
 
 
 //  朋友实体

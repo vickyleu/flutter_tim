@@ -1,4 +1,4 @@
-import  ImSDK_Smart
+import  ImSDK
 
 
 //  群成员结实体

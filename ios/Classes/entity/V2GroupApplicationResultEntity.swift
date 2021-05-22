@@ -1,5 +1,5 @@
 import Foundation
-import  ImSDK_Smart
+import  ImSDK
 
 /// 群申请结果实体
 class V2GroupApplicationResultEntity: V2TIMGroupApplicationResult {

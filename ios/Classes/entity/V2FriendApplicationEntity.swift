@@ -1,5 +1,5 @@
 import Foundation
-import  ImSDK_Smart
+import  ImSDK
 
 /// 好友申请实体
 class V2FriendApplicationEntity: V2TIMFriendApplication {

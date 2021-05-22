@@ -1,4 +1,4 @@
-import  ImSDK_Smart
+import  ImSDK
 import Hydra
 
 public class V2MessageEntity {

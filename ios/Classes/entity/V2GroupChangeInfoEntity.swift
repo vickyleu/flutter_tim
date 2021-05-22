@@ -1,5 +1,5 @@
 import Foundation
-import  ImSDK_Smart
+import  ImSDK
 
 /// 自定义群改变信息
 class V2GroupChangeInfoEntity: V2TIMGroupChangeInfo {
