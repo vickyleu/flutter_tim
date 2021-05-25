@@ -15,7 +15,7 @@ A new flutter plugin project.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.platform = :ios, '9.0'
+  s.platform = :ios, '10.0'
 
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
@@ -24,8 +24,8 @@ A new flutter plugin project.
   # 资源导入
   s.vendored_frameworks = '**/*.framework'
   # SDK 依赖
-  s.dependency 'TXIMSDK_iOS','5.1.62'
-  #s.dependency 'TXIMSDK_Smart_iOS', "5.3.425"
+  #s.dependency 'TXIMSDK_iOS','5.1.62'
+  s.dependency 'TXIMSDK_Smart_iOS', "5.3.425"
   s.dependency 'HydraAsync'
   s.static_framework = true
 end

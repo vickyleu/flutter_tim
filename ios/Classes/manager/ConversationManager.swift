@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ImSDK
+import ImSDK_Smart
 
 class ConversationManager {
 	var channel: FlutterMethodChannel
@@ -71,13 +71,13 @@ class ConversationManager {
 	public func pinConversation(call: FlutterMethodCall, result: @escaping FlutterResult) {
 		let conversationID = CommonUtils.getParam(call: call, result: result, param: "conversationID") as! String;
 		let isPinned = CommonUtils.getParam(call: call, result: result, param: "isPinned") as! Bool;
-		
+
 		V2TIMManager.sharedInstance()?.pinConversation(conversationID, isPinned: isPinned, succ: {
 			() -> Void in
 			CommonUtils.resultSuccess(call: call, result: result, data: "ok")
 		}, fail: TencentImUtils.returnErrorClosures(call: call, result: result))
 	}
-	
+
 	public func getTotalUnreadMessageCount(call: FlutterMethodCall, result: @escaping FlutterResult) {
 		V2TIMManager.sharedInstance()?.getTotalUnreadMessageCount({
 			totalCount -> Void in

@@ -1,7 +1,7 @@
 import UIKit
 import Hydra
 import Flutter
-import ImSDK
+import ImSDK_Smart
 import UserNotifications
 
 public class TencentImSDKPlugin: NSObject, FlutterPlugin, UNUserNotificationCenterDelegate
@@ -255,9 +255,6 @@ public class TencentImSDKPlugin: NSObject, FlutterPlugin, UNUserNotificationCent
 		case "getConversationList":
 			conversationManager!.getConversationList(call: call, result: result)
 			break
-		case "getConversationListByConversaionIds":
-			conversationManager!.getConversationListByConversaionIds(call: call, result: result)
-			break
 		case "getConversation":
 			conversationManager!.getConversation(call: call, result: result)
 			break
@@ -266,9 +263,6 @@ public class TencentImSDKPlugin: NSObject, FlutterPlugin, UNUserNotificationCent
 			break
 		case "setConversationDraft":
 			conversationManager!.setConversationDraft(call: call, result: result)
-			break
-		case "pinConversation":
-			conversationManager!.pinConversation(call: call, result: result)
 			break
 		case "getTotalUnreadMessageCount":
 			conversationManager!.getTotalUnreadMessageCount(call: call, result: result)

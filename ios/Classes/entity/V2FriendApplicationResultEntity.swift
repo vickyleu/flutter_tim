@@ -1,4 +1,4 @@
-import ImSDK
+import ImSDK_Smart
 
 
 //  未决对象实体

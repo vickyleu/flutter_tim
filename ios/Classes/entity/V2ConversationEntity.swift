@@ -1,5 +1,5 @@
 import Foundation
-import ImSDK
+import ImSDK_Smart
 import Hydra
 
 /// 自定义会话实体
@@ -20,7 +20,6 @@ class V2ConversationEntity: V2TIMConversation {
         result["draftText"] = info.draftText;
 		result["draftTimestamp"] = (info.draftTimestamp != nil) ? info.draftTimestamp.timeIntervalSince1970 : nil;
         result["test"] = nil;
-		result["isPinned"] = info.isPinned;
 		if info.lastMessage != nil {
 			result["lastMessage"] = V2MessageEntity(message: info.lastMessage).getDict(progress: 100)
 		}

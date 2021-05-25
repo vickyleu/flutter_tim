@@ -1,5 +1,5 @@
 import Foundation
-import ImSDK
+import ImSDK_Smart
 
 /// 自定义群成员信息实体
 class V2GroupMemberFullInfoEntity: V2TIMGroupMemberFullInfo {

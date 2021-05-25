@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ImSDK
+import ImSDK_Smart
 import Hydra
 
 class MessageManager {
@@ -206,6 +206,7 @@ class MessageManager {
 	func setGroupReceiveMessageOpt(call: FlutterMethodCall, result: @escaping FlutterResult) {
 		if let groupID = CommonUtils.getParam(call: call, result: result, param: "groupID") as? String,
 		   let opt = CommonUtils.getParam(call: call, result: result, param: "opt") as? Int {
+            V2TIMManager.sharedInstance()?.setGroupAttributes(groupID, attributes: <#T##[String : String]!#>, succ: <#T##V2TIMSucc!##V2TIMSucc!##() -> Void#>, fail: <#T##V2TIMFail!##V2TIMFail!##(Int32, String?) -> Void#>)
 			V2TIMManager.sharedInstance()?.setGroupReceiveMessageOpt(groupID, opt: V2TIMReceiveMessageOpt.init(rawValue: opt)!, succ: {
 					() -> Void in
 					CommonUtils.resultSuccess(call: call, result: result, data: "ok")

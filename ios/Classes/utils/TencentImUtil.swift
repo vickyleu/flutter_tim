@@ -1,4 +1,4 @@
-import ImSDK
+import ImSDK_Smart
 
 //  腾讯云工具类
 

@@ -1,4 +1,4 @@
-import ImSDK
+import ImSDK_Smart
 
 
 //  好友关系检测返回对象

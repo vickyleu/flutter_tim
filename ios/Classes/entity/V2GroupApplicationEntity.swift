@@ -1,5 +1,5 @@
 import Foundation
-import ImSDK
+import ImSDK_Smart
 
 /// 自定义群申请实体
 class V2GroupApplicationEntity: V2TIMGroupApplication {

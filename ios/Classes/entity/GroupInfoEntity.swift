@@ -1,4 +1,4 @@
-import ImSDK
+import ImSDK_Smart
 
 
 //  群信息实体

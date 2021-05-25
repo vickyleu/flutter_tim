@@ -1,5 +1,5 @@
 import Flutter
-import ImSDK
+import ImSDK_Smart
 
 //  通用工具类
 public class CommonUtils {
