@@ -1,5 +1,5 @@
 import Foundation
-import ImSDK
+import   ImSDK_Smart
 import Hydra
 
 /// 自定义会话实体

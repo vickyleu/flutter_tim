@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import ImSDK
+import   ImSDK_Smart
 import Hydra
 
 class MessageManager {
