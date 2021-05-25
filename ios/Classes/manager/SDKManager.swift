@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import   ImSDK_Smart
+import ImSDK
 
 class SDKManager {
 	var channel: FlutterMethodChannel

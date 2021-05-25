@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import   ImSDK_Smart
+import ImSDK
 
 class ConversationListener: NSObject, V2TIMConversationListener {
 	/// 会话刷新

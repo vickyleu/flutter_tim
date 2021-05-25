@@ -1,4 +1,4 @@
-import  ImSDK;
+import ImSDK;
 
 //  朋友实体
 public class V2FriendInfoResultEntity : V2TIMFriendInfoResult {

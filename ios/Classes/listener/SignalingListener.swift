@@ -5,7 +5,7 @@
 //  Created by 林智 on 2020/12/24.
 //
 import Foundation
-import   ImSDK_Smart
+import ImSDK
 
 class SignalingListener: NSObject, V2TIMSignalingListener {
 	/*

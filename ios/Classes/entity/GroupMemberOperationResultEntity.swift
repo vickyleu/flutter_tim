@@ -1,4 +1,4 @@
-import  ImSDK
+import ImSDK
 
 
 //  群成员结实体

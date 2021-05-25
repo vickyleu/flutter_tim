@@ -1,5 +1,5 @@
 import Foundation
-import  ImSDK
+import ImSDK
 
 /// 自定义会话结果实体
 class V2ConversationResultEntity: NSObject {

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import   ImSDK_Smart
+import ImSDK
 
 class GroupListener: NSObject, V2TIMGroupListener {
 	public func onMemberEnter(_ groupID: String!, memberList: [V2TIMGroupMemberInfo]!) {

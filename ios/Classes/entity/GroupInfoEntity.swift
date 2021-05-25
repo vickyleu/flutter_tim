@@ -1,4 +1,4 @@
-import  ImSDK
+import ImSDK
 
 
 //  群信息实体

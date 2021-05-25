@@ -1,5 +1,5 @@
 import Foundation
-import  ImSDK
+import ImSDK
 
 /// 自定义消息响应实体
 class V2MessageReceiptEntity: V2TIMMessageReceipt {

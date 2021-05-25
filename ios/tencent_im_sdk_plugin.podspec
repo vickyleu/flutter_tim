@@ -24,8 +24,8 @@ A new flutter plugin project.
   # 资源导入
   s.vendored_frameworks = '**/*.framework'
   # SDK 依赖
- #s.dependency 'TXIMSDK_iOS','5.1.62'
-  s.dependency 'TXIMSDK_Smart_iOS', "5.3.425"
+  s.dependency 'TXIMSDK_iOS','5.1.62'
+  #s.dependency 'TXIMSDK_Smart_iOS', "5.3.425"
   s.dependency 'HydraAsync'
   s.static_framework = true
 end

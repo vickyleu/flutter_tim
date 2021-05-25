@@ -1,7 +1,7 @@
 import UIKit
 import Hydra
 import Flutter
-import   ImSDK_Smart
+import ImSDK
 import UserNotifications
 
 public class TencentImSDKPlugin: NSObject, FlutterPlugin, UNUserNotificationCenterDelegate

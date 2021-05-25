@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import   ImSDK_Smart
+import ImSDK
 
 class SDKListener: NSObject, V2TIMSDKListener {
 	/// 连接中
