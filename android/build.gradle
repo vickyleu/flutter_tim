@@ -2,21 +2,31 @@ group 'com.qq.qcloud.tencent_im_sdk_plugin'
 version '1.0'
 buildscript {
     repositories {
-        google()
-        jcenter()
         mavenCentral()
+        maven { url 'https://dl.bintray.com/tencentqcloudterminal/maven' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter'}
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        google()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.android.tools.build:gradle:3.5.4'
     }
 }
 
 rootProject.allprojects {
     repositories {
-        google()
-        jcenter()
         mavenCentral()
+        maven { url 'https://dl.bintray.com/tencentqcloudterminal/maven' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter'}
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        google()
     }
 }
 apply plugin: 'com.android.library'
@@ -38,7 +48,8 @@ android {
     }
 
     dependencies {
-       api 'com.tencent.imsdk:imsdk-smart:5.3.435'
+       api 'com.tencent.imsdk:imsdk-smart:5.3.425'
+//       api 'com.tencent.imsdk:imsdk:4.8.50'
     }
 
     packagingOptions{
